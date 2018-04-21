@@ -1,7 +1,7 @@
 import media
 import fresh_tomatoes
 
-# =============== Creating instances of movies of the movie class ======================================================
+# =============== Movie list ===========================================================================================
 # Creating instance of movie "The Matrix"
 matrix = media.Movie('The Matrix', 'In near future people are plugged into virtual reality machine, some of them escaped and helping others escape', 'http://www.impawards.com/1999/posters/matrix_ver2.jpg', 'https://www.youtube.com/watch?v=m8e-FF8MsqU')
 # Creating instance of movie "A.I. Artificial intelligence"
@@ -17,5 +17,6 @@ living_dead = media.Movie('Night of the Living Dead', 'Dead comes to life to kil
 # Creating instance of movie "8 Mile"
 mile8 = media.Movie('8 Mile', 'Talented rapper finds himself in dead-end job, homeless, working his way out', 'https://pre00.deviantart.net/39ab/th/pre/i/2015/364/3/e/8_mile_fan_poster_by_krisiskiller105-d9m1jkw.png', 'https://www.youtube.com/watch?v=axGVrfwm9L4')
 
+# Adding all the instances into single array
 movies = [matrix, ai, inception, clockwork_orange, birds, living_dead, mile8]
 fresh_tomatoes.open_movies_page(movies)
