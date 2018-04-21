@@ -3,9 +3,9 @@
 The python script here creates a HTML file, that contains list of my favorite movies. There are their posters
 as well as youtube trailers of each movie.
 ## Requirements
-..* Python (tested on 3.6, may work on other versions)
-..* Web Browser (to run HTML)
-..* Internet connection
+* Python (tested on 3.6, may work on other versions)
+* Web Browser (to run HTML)
+* Internet connection
 ## Installing and running
 1. Download or clone this repository
 2. Launch 'entertainment_center.py' (make sure it is in the same folder as 'media.py' as well as 'fresh_tomatoes.py'
