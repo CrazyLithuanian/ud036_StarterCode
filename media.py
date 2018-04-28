@@ -1,14 +1,15 @@
 import webbrowser
 class Movie():
     def __init__(self, title, storyline, poster_image, trailer_youtube):
-        """ The initializer initializes movie title, storyline, poster image url and trailer url from youtube,
+        """ The initializer initializes movie title, storyline,
+        poster image url and trailer url from youtube,
             these must be supplied while initializing the class"""
         self.title = title
         self.storyline = storyline
         self.poster_image_url = poster_image
         self.trailer_youtube_url = trailer_youtube
 
-    # ================ These functions are mostly used for debugging purposes mostly ===================================
+    # ================ These functions are mostly used for debugging purposes =
     def print_title(self):
         """Prints the title of the movie"""
         print(self.title)
